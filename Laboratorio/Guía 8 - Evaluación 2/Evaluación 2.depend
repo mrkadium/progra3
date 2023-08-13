@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1509551574 source:c:\users\pc-18\desktop\evaluación 2\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Prestamo.h"
+
+1509552675 c:\users\pc-18\desktop\evaluación 2\prestamo.h
+	"Fecha.h"
+	"Libro.h"
+	"Estudiante.h"
+
+1509552367 c:\users\pc-18\desktop\evaluación 2\fecha.h
+
+1509552472 c:\users\pc-18\desktop\evaluación 2\libro.h
+	"Autor.h"
+	<list>
+
+1509552175 c:\users\pc-18\desktop\evaluación 2\autor.h
+	<list>
+
+1509550104 c:\users\pc-18\desktop\evaluación 2\estudiante.h
+
+1509849834 source:c:\users\soldier4\desktop\evaluación 2\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Prestamo.h"
+
+1509848817 c:\users\soldier4\desktop\evaluación 2\prestamo.h
+	"Fecha.h"
+	"Libro.h"
+	"Estudiante.h"
+
+1509847200 c:\users\soldier4\desktop\evaluación 2\fecha.h
+
+1509726142 c:\users\soldier4\desktop\evaluación 2\libro.h
+	"Autor.h"
+	<list>
+
+1509719872 c:\users\soldier4\desktop\evaluación 2\autor.h
+	<list>
+
+1509722270 c:\users\soldier4\desktop\evaluación 2\estudiante.h
+

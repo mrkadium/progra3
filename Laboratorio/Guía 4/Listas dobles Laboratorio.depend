@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1505961313 source:c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 4\main.cpp
+	<iostream>
+	"ListaDoble.h"
+	"stdlib.h"
+
+1505961313 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 4\listadoble.h
+	"Nodo.h"
+
+1505922864 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 4\nodo.h
+

@@ -1,0 +1,110 @@
+#ifndef LISTA_H_INCLUDED
+#define LISTA_H_INCLUDED
+
+class Lista{
+    private:
+        Nodo *Primero;
+
+        Nodo *Ultimo;
+
+        bool ListaVacia(){
+            return (this->Primero==NULL);
+        }
+    public:
+        Lista()
+        {
+            this->Primero=NULL;
+            this->Ultimo=NULL;
+        }
+        ~Lista(){
+            while(this->Primero){
+                Nodo *tmp = this->Primero;
+                this->Primero =this->Primero->Siguiente;
+                delete tmp;
+            }
+            this->Ultimo =NULL;
+
+        }
+        Nodo *Buscar(Trabajador *e){
+            this->Ultimo=this->Primero;
+            while(this->Ultimo!=NULL){
+              if (this->Ultimo->Valor->getId() ==e->getId()){
+                        return this->Ultimo;
+                    }
+                this->Ultimo=this->Ultimo->Siguiente;
+            }
+            return NULL;
+        }
+    //Insertar final
+        void Insertar(Trabajador *t){
+            Nodo *nuevo= new Nodo(t);
+            if(this->ListaVacia()){
+                this->Primero=nuevo;
+            }
+            else{
+                this->Ultimo=this->Primero;
+                if(ListaVacia()!=true){
+                    while(this->Ultimo->Siguiente!=NULL){//mientras exista un nodo mas que recorrer
+                         if(this->Ultimo->Siguiente!=NULL){
+                            this->Ultimo = this->Ultimo->Siguiente;//nos movemos una posicion a la posicion siguiente
+
+                        }
+                    }
+                }
+                this->Ultimo->Siguiente=nuevo;
+
+            }
+        }
+
+    /// agregar antes del primero
+        void adicionar(Trabajador *t){
+            Nodo *nuevo=new Nodo(t);
+            this->Ultimo=this->Primero;
+            if(ListaVacia()){
+                this->Primero=nuevo;
+
+            }else{
+                nuevo->Siguiente=this->Primero;
+                this->Primero=nuevo;
+
+                while(this->Ultimo){
+                    this->Ultimo=this->Ultimo->Siguiente;
+                }
+            }
+        }
+
+  void AgregarAntes(Trabajador *t, Trabajador *t2){
+            this->Ultimo=this->Primero;
+
+            Nodo *nuevo=new Nodo(t2);
+            nuevo->Siguiente=NULL;
+            if(t==NULL){
+                this->Insertar(t2);
+            }else{
+                if(ListaVacia()){
+                    this->Primero=nuevo;
+
+                }else{
+                    if(this->Primero->Valor->getId()==t->getId()){
+                        this->adicionar(t2);
+
+                    }else{
+                        Nodo *posterior=this->Primero;
+                        Nodo *anterior;
+                        Nodo *aux=this->Buscar(t);
+                        while(posterior->Valor->getId()!=aux->Valor->getId()){
+                            anterior=posterior;
+                            posterior=posterior->Siguiente;
+                        }
+
+
+                        anterior->Siguiente=nuevo;
+                        nuevo->Siguiente=posterior;
+
+                }
+            }
+        }
+    }
+};
+
+#endif // LISTA_H_INCLUDED

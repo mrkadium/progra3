@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1506794919 source:c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 5\main.cpp
+	<iostream>
+	<string.h>
+	"Lista.h"
+	"Cereal.h"
+	"Detergente.h"
+	<stdlib.h>
+
+1506795043 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 5\lista.h
+	"Nodo.h"
+	"Cereal.h"
+	"Detergente.h"
+
+1506526094 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 5\nodo.h
+	"Producto.h"
+
+1506736804 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 5\producto.h
+	<string.h>
+
+1506794919 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 5\cereal.h
+	"Producto.h"
+
+1506718227 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 5\detergente.h
+	"Producto.h"
+
+1506906922 source:c:\users\falle\desktop\consulta\guía 5\guía 5\main.cpp
+	<iostream>
+	<string.h>
+	"Lista.h"
+	"Cereal.h"
+	"Detergente.h"
+	<stdlib.h>
+
+1506907138 c:\users\falle\desktop\consulta\guía 5\guía 5\lista.h
+	"Nodo.h"
+	"Cereal.h"
+	"Detergente.h"
+
+1506906795 c:\users\falle\desktop\consulta\guía 5\guía 5\nodo.h
+	"Producto.h"
+
+1506736804 c:\users\falle\desktop\consulta\guía 5\guía 5\producto.h
+	<string.h>
+
+1506906898 c:\users\falle\desktop\consulta\guía 5\guía 5\cereal.h
+	"Producto.h"
+
+1506906898 c:\users\falle\desktop\consulta\guía 5\guía 5\detergente.h
+	"Producto.h"
+
+1506979140 source:c:\users\soldier4\downloads\guía 5\main.cpp
+	<iostream>
+	<string.h>
+	"Lista.h"
+	"Cereal.h"
+	"Detergente.h"
+	<stdlib.h>
+
+1506979357 c:\users\soldier4\downloads\guía 5\lista.h
+	"Nodo.h"
+	"Cereal.h"
+	"Detergente.h"
+
+1506906795 c:\users\soldier4\downloads\guía 5\nodo.h
+	"Producto.h"
+
+1506974308 c:\users\soldier4\downloads\guía 5\producto.h
+	<string.h>
+
+1506979140 c:\users\soldier4\downloads\guía 5\cereal.h
+	"Producto.h"
+
+1506979140 c:\users\soldier4\downloads\guía 5\detergente.h
+	"Producto.h"
+

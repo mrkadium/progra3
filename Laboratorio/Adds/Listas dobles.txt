@@ -1,0 +1,192 @@
+#include "Nodo.h"
+class ListaDoble{
+    private:
+        p actual;
+        bool ListaVacia(){
+            return (this->actual==NULL);
+        }
+    public:
+        ///Constructor
+        ListaDoble(){
+            this->actual = NULL;
+        }
+        ~ListaDoble(){
+            this->Primero();
+            while (this->actual){
+                p aux = this->actual;
+                this->Siguiente();
+                delete aux;
+            }
+        }
+        ///Metodos de navegacion
+        void Anterior(){
+            if (this->actual)
+                this->actual = this->actual->Anterior;
+        }
+        void Siguiente(){
+            if (this->actual)
+                this->actual = this->actual->Siguiente;
+        }
+        void Primero(){
+            if (!this->ListaVacia()){
+                while (this->actual->Anterior){
+                    this->Anterior();
+                }
+            }
+        }
+        void Ultimo(){
+            if (!this->ListaVacia()){
+                while (this->actual->Siguiente){
+                    this->Siguiente();
+                }
+            }
+        }
+
+         p Buscar(int v){
+            this->Primero();
+            bool encontrado=false;
+            p aux = this->actual;
+            p retorno = NULL;
+            while (aux && !encontrado){
+                if (aux->Valor==v){
+                    encontrado=true;
+                    retorno = aux;
+                }
+                else{
+                    aux = aux->Siguiente;
+                }
+            }
+            return retorno;
+        }
+
+        void InsertarFinal(int v){
+            p nuevo = new Nodo(v);
+            if (this->ListaVacia()){
+                this->actual = nuevo;
+            }
+            else{
+                this->Ultimo();
+                this->actual->Siguiente = nuevo;
+                nuevo->Anterior = this->actual;
+            }
+        }
+
+        void InsertarInicio(int v){
+            p nuevo = new Nodo(v);
+            if (this->ListaVacia()){
+                this->actual = nuevo;
+            }
+            else{
+                this->Primero();
+                actual->Anterior=nuevo;
+                nuevo->Siguiente=actual;
+            }
+        }
+
+         void InsertarAntes(int antesDe,int v){
+             //primero se compara que la lista no este vacia
+            if(ListaVacia()!=true){
+                //se busca la ubicacion del nodo
+                p encontrado= Buscar(antesDe);
+                //si el valor se encontro y si existe un nodo anterior
+                if(encontrado!=NULL || encontrado->Anterior!=NULL){
+                    //se instancia el nodo nuevo
+                    p nuevo = new Nodo(v);
+                    //nuevo en la posicion siguiente es igual al nodo encontrado
+                    nuevo->Siguiente=encontrado;
+                    //nuevo en la posicion anterior es igual al nodo encontrado el valor anterior
+                    nuevo->Anterior=encontrado->Anterior;
+                    //el valor encontrado en el nodo anterior apunta a siguiente que seria el nuevo
+                    encontrado->Anterior->Siguiente=nuevo;
+                    //encontrado en anterior es el nuevo ya que lo insertamos detras del numero que buscamos
+                    encontrado->Anterior=nuevo;
+                }else{
+                    cout << "No se encontro la referencia";
+                }
+            }else{
+                cout << "No hay datos para insertar en medio";
+            }
+        }
+        bool Eliminar(int v){
+            p aux = this->Buscar(v);
+            if (aux){
+                if (aux->Anterior==NULL && aux->Siguiente==NULL){
+                            ///Es unico
+                            this->actual = NULL;
+                        }
+                    else{
+                    if (aux->Anterior==NULL){
+                    ///Al principio
+                        this->actual = this->actual->Siguiente;
+                        this->actual->Anterior = NULL;
+                    }
+                    else{
+                        if (aux->Siguiente == NULL){
+                            ///Ultimo
+                            this->Ultimo();
+                            this->actual = this->actual->Anterior;
+                            this->actual->Siguiente = NULL;
+                        }else{
+                            ///Esta en medio
+                                this->actual = aux;
+                                this->actual->Siguiente->Anterior = this->actual->Anterior;
+                                this->actual->Anterior->Siguiente = this->actual->Siguiente;
+                                this->actual = aux->Siguiente;
+                        }
+                    }
+                }
+            }else{
+                return false;
+            }
+            delete aux;
+            return true;
+        }
+        bool Modificar(int v, int n){
+            p aux = this->Buscar(v);
+            if (aux){
+                aux->Valor = n;
+                return true;
+            }
+            return false;
+        }
+        void Mostrar(){
+            p aux;
+            this->Primero();
+                aux = this->actual;
+                cout << "NULL<-->";
+                while (aux){
+                    cout << aux->Valor;
+                    cout << "<-->";
+                    aux = aux->Siguiente;
+                }
+                cout << "NULL\n";
+        }
+        void MostrarOrden(int orden){
+            p aux;
+            if (orden==1){
+                ///1. Ascendente
+                this->Primero();
+                aux = this->actual;
+                cout << "NULL<-->";
+                while (aux){
+                    cout << aux->Valor;
+                    cout << "<-->";
+                    aux = aux->Siguiente;
+                }
+                cout << "NULL\n";
+            }
+            else{
+                ///2. Descendente
+                this->Ultimo();
+                aux = this->actual;
+                cout << "NULL<-->";
+                while (aux){
+                    cout << aux->Valor;
+                    cout << "<-->";
+                    aux = aux->Anterior;
+                }
+                cout << "NULL\n";
+            }
+        }
+
+};

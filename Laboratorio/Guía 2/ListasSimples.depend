@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1503460252 source:c:\users\falle\desktop\guías\segunda clase\listassimples\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1503460311 c:\users\falle\desktop\guías\segunda clase\listassimples\lista.h
+	"Nodo.h"
+
+1503373620 c:\users\falle\desktop\guías\segunda clase\listassimples\nodo.h
+
+1503460491 source:c:\users\falle\desktop\guías\segunda clase\codigolistas\listassimples\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1503460311 c:\users\falle\desktop\guías\segunda clase\codigolistas\listassimples\lista.h
+	"Nodo.h"
+
+1503461499 c:\users\falle\desktop\guías\segunda clase\codigolistas\listassimples\nodo.h
+
+1503981683 source:c:\users\pepe\desktop\listassimples\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1503982014 c:\users\pepe\desktop\listassimples\lista.h
+	"Nodo.h"
+
+1503979770 c:\users\pepe\desktop\listassimples\nodo.h
+	"Paciente.h"
+
+1503980348 c:\users\pepe\desktop\listassimples\paciente.h
+	<string.h>
+
+1503981684 source:f:\laboratorio de programacion iii\guia 2\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1503982016 f:\laboratorio de programacion iii\guia 2\lista.h
+	"Nodo.h"
+
+1503979772 f:\laboratorio de programacion iii\guia 2\nodo.h
+	"Paciente.h"
+
+1503980350 f:\laboratorio de programacion iii\guia 2\paciente.h
+	<string.h>
+
+1504112052 source:e:\laboratorio de programacion iii\guia 2\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1504112152 e:\laboratorio de programacion iii\guia 2\lista.h
+	"Nodo.h"
+
+1503979772 e:\laboratorio de programacion iii\guia 2\nodo.h
+	"Paciente.h"
+
+1503980350 e:\laboratorio de programacion iii\guia 2\paciente.h
+	<string.h>
+
+1504112216 source:g:\progra iii\laboratorio\guia 2\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1504112152 g:\progra iii\laboratorio\guia 2\lista.h
+	"Nodo.h"
+
+1503979772 g:\progra iii\laboratorio\guia 2\nodo.h
+	"Paciente.h"
+
+1503980350 g:\progra iii\laboratorio\guia 2\paciente.h
+	<string.h>
+
+1504112216 source:c:\users\soldier4\documents\proyectos de codeblocks\progra\laboratorio\guia 2\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1504112152 c:\users\soldier4\documents\proyectos de codeblocks\progra\laboratorio\guia 2\lista.h
+	"Nodo.h"
+
+1503979772 c:\users\soldier4\documents\proyectos de codeblocks\progra\laboratorio\guia 2\nodo.h
+	"Paciente.h"
+
+1503980350 c:\users\soldier4\documents\proyectos de codeblocks\progra\laboratorio\guia 2\paciente.h
+	<string.h>
+

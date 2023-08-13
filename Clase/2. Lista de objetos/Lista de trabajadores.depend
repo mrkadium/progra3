@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1504023897 source:c:\users\pc-21\documents\lista de trabajadores\main.cpp
+	<iostream>
+	"Lista.h"
+
+1504024261 c:\users\pc-21\documents\lista de trabajadores\lista.h
+	"Nodo.h"
+
+1504023429 c:\users\pc-21\documents\lista de trabajadores\nodo.h
+	<stdlib.h>
+	"Trabajador.h"
+
+1504024116 c:\users\pc-21\documents\lista de trabajadores\trabajador.h
+	<string.h>
+
+1504025617 source:c:\users\soldier4\documents\proyectos de codeblocks\programación iii\lista de objetos\main.cpp
+	<iostream>
+	"Lista.h"
+
+1504024261 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\lista de objetos\lista.h
+	"Nodo.h"
+
+1504023429 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\lista de objetos\nodo.h
+	<stdlib.h>
+	"Trabajador.h"
+
+1504024116 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\lista de objetos\trabajador.h
+	<string.h>
+

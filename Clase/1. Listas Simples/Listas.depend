@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1503675421 source:c:\users\pc-19\downloads\listas\main.cpp
+	<iostream>
+	"Lista.h"
+
+1503675421 c:\users\pc-19\downloads\listas\lista.h
+	"Nodo.h"
+
+1503695760 c:\users\pc-19\downloads\listas\nodo.h
+
+1690700033 source:c:\users\soldier4\downloads\documents\[computación]\programación\programación iii\clase\1. listas simples\main.cpp
+	<iostream>
+	"Lista.h"
+
+1690700016 c:\users\soldier4\downloads\documents\[computación]\programación\programación iii\clase\1. listas simples\lista.h
+	"Nodo.h"
+
+1690698775 c:\users\soldier4\downloads\documents\[computación]\programación\programación iii\clase\1. listas simples\nodo.h
+

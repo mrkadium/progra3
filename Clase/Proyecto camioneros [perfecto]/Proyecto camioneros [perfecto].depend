@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1517616034 source:c:\users\soldier4\documents\computación\programación iii\clase\proyecto camioneros [perfecto]\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1518496157 c:\users\soldier4\documents\computación\programación iii\clase\proyecto camioneros [perfecto]\funciones.h
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<string.h>
+	<windows.h>
+	<cstdlib>
+	<chrono>
+	<time.h>
+
+1517619634 source:m:\documents\computación\programación\programación iii\clase\proyecto camioneros [perfecto]\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1518500149 m:\documents\computación\programación\programación iii\clase\proyecto camioneros [perfecto]\funciones.h
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<string.h>
+	<windows.h>
+	<cstdlib>
+	<chrono>
+	<time.h>
+

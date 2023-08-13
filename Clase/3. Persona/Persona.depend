@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1504830362 source:c:\users\soldier4\documents\proyectos de codeblocks\persona\main.cpp
+	<iostream>
+	"Lista.h"
+
+1504830265 c:\users\soldier4\documents\proyectos de codeblocks\persona\lista.h
+	"Nodo.h"
+	"PersonaNatural.h"
+	"PersonaJuridica.h"
+
+1504828058 c:\users\soldier4\documents\proyectos de codeblocks\persona\nodo.h
+	"Persona.h"
+
+1504827829 c:\users\soldier4\documents\proyectos de codeblocks\persona\persona.h
+	<string.h>
+
+1504830198 c:\users\soldier4\documents\proyectos de codeblocks\persona\personanatural.h
+	"Persona.h"
+
+1504830482 c:\users\soldier4\documents\proyectos de codeblocks\persona\personajuridica.h
+	"Persona.h"
+

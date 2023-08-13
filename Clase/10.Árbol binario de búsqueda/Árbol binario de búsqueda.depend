@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1511146944 source:c:\users\soldier4\documents\proyectos de computación\programación iii\clase\Árbol binario de búsqueda\main.cpp
+	<iostream>
+	"ArbolBinario.h"
+	<stdlib.h>
+
+1511147189 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\Árbol binario de búsqueda\arbolbinario.h
+	"Nodo.h"
+	<iostream>
+
+1511140888 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\Árbol binario de búsqueda\nodo.h
+
+1511716066 source:c:\users\soldier4\documents\proyectos de computación\programación iii\clase\10.Árbol binario de búsqueda\main.cpp
+	<iostream>
+	"ArbolBinario.h"
+	<stdlib.h>
+
+1511723121 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\10.Árbol binario de búsqueda\arbolbinario.h
+	"Nodo.h"
+	<iostream>
+
+1511386152 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\10.Árbol binario de búsqueda\nodo.h
+
+1511385529 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\10.Árbol binario de búsqueda\abb.h
+	"Nodo.h"
+	<iostream>
+

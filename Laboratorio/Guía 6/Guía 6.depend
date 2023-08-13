@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1507133319 source:c:\users\pc-38\desktop\guía 6\main.cpp
+	<iostream>
+	<list>
+	"Estudiante.h"
+	"Trabajador.h"
+	<stdlib.h>
+
+1507131146 c:\users\pc-38\desktop\guía 6\estudiante.h
+	"Persona.h"
+
+1507131006 c:\users\pc-38\desktop\guía 6\persona.h
+
+1507131132 c:\users\pc-38\desktop\guía 6\trabajador.h
+	"Persona.h"
+
+1507175105 source:c:\users\soldier4\desktop\guía 6\main.cpp
+	<iostream>
+	<list>
+	"Estudiante.h"
+	"Trabajador.h"
+	<stdlib.h>
+
+1507175152 c:\users\soldier4\desktop\guía 6\estudiante.h
+	"Persona.h"
+
+1507175152 c:\users\soldier4\desktop\guía 6\persona.h
+
+1507175152 c:\users\soldier4\desktop\guía 6\trabajador.h
+	"Persona.h"
+
+1508601982 source:c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 6\main.cpp
+	<iostream>
+	<list>
+	"Estudiante.h"
+	"Trabajador.h"
+	<stdlib.h>
+
+1507175152 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 6\estudiante.h
+	"Persona.h"
+
+1507175152 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 6\persona.h
+
+1507175152 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 6\trabajador.h
+	"Persona.h"
+

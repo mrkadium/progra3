@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1510195063 source:c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.2 supernodo y superlista\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Lista.h"
+
+1510194939 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.2 supernodo y superlista\lista.h
+	"Producto.h"
+	"Cliente.h"
+	"Nodo.h"
+	"Venta.h"
+
+1507611215 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.2 supernodo y superlista\producto.h
+	"Objeto.h"
+
+1507613065 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.2 supernodo y superlista\objeto.h
+
+1507611215 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.2 supernodo y superlista\cliente.h
+	"Objeto.h"
+
+1507754538 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.2 supernodo y superlista\nodo.h
+	"Objeto.h"
+
+1510099163 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.2 supernodo y superlista\venta.h
+	"Objeto.h"
+	"Producto.h"
+	"Cliente.h"
+

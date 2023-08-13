@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1505319964 source:c:\users\pc-38\desktop\evaluacion lab\main.cpp
+	<iostream>
+	"stdlib.h"
+	"Lista.h"
+
+1505320115 c:\users\pc-38\desktop\evaluacion lab\lista.h
+	"Nodo.h"
+
+1505317195 c:\users\pc-38\desktop\evaluacion lab\nodo.h
+	"Contacto.h"
+
+1505316287 c:\users\pc-38\desktop\evaluacion lab\contacto.h
+
+1505688986 source:c:\users\soldier4\documents\proyectos de codeblocks\programación iii\evaluacion lab\main.cpp
+	<iostream>
+	"stdlib.h"
+	"Lista.h"
+
+1505685835 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\evaluacion lab\lista.h
+	"Nodo.h"
+
+1505683253 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\evaluacion lab\nodo.h
+	"Contacto.h"
+
+1505316287 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\evaluacion lab\contacto.h
+
+1505765168 source:c:\users\soldier4\documents\proyectos de codeblocks\programación iii\laboratorio\evaluacion lab\main.cpp
+	<iostream>
+	"stdlib.h"
+	"Lista.h"
+
+1505765420 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\laboratorio\evaluacion lab\lista.h
+	"Nodo.h"
+
+1505683253 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\laboratorio\evaluacion lab\nodo.h
+	"Contacto.h"
+
+1505316287 c:\users\soldier4\documents\proyectos de codeblocks\programación iii\laboratorio\evaluacion lab\contacto.h
+
+1505796358 source:c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 3 - evaluacion 1\main.cpp
+	<iostream>
+	"stdlib.h"
+	"Lista.h"
+
+1505853270 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 3 - evaluacion 1\lista.h
+	"Nodo.h"
+
+1505683253 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 3 - evaluacion 1\nodo.h
+	"Contacto.h"
+
+1505316287 c:\users\soldier4\documents\proyectos de computación\programación iii\laboratorio\guía 3 - evaluacion 1\contacto.h
+

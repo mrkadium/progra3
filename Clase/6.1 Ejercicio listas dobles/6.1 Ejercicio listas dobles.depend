@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1507009916 source:c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\main.cpp
+	<iostream>
+	"string"
+	<string>
+	"ListaCliente.h"
+	"ListaProducto.h"
+	"ListaVenta.h"
+	<stdlib.h>
+
+1507009408 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\listacliente.h
+	"NodoCliente.h"
+
+1506273669 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\nodocliente.h
+	"Cliente.h"
+
+1506291417 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\cliente.h
+	<string.h>
+
+1507009689 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\listaproducto.h
+	"NodoProducto.h"
+
+1506273669 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\nodoproducto.h
+	"Producto.h"
+
+1506291417 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\producto.h
+	<string.h>
+
+1507071840 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\listaventa.h
+	"NodoVenta.h"
+
+1506277276 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\nodoventa.h
+	"Venta.h"
+
+1506291417 c:\users\soldier4\documents\proyectos de computación\programación iii\clase\6.1 ejercicio listas dobles\venta.h
+	"Cliente.h"
+	"Producto.h"
+	"ListaProducto.h"
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1514922071 source:c:\users\soldier4\documents\proyectos de computación\hospital (abb)\main.cpp
+	<iostream>
+	"ABB.h"
+
+1514923718 c:\users\soldier4\documents\proyectos de computación\hospital (abb)\abb.h
+	"Nodo.h"
+	<iostream>
+
+1514922230 c:\users\soldier4\documents\proyectos de computación\hospital (abb)\nodo.h
+	"Ingresado.h"
+
+1514923011 c:\users\soldier4\documents\proyectos de computación\hospital (abb)\ingresado.h
+	<string.h>
+	<string>
+

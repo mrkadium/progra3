@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1509470490 source:c:\users\pc-18\desktop\parcial ii\main.cpp
+	<iostream>
+	<list>
+	"ListaProducto.h"
+	"Venta.h"
+	"Cliente.h"
+	<stdlib.h>
+
+1509465284 c:\users\pc-18\desktop\parcial ii\listaproducto.h
+	"NodoProducto.h"
+
+1509464222 c:\users\pc-18\desktop\parcial ii\nodoproducto.h
+	"Producto.h"
+
+1509463312 c:\users\pc-18\desktop\parcial ii\producto.h
+
+1509465137 c:\users\pc-18\desktop\parcial ii\venta.h
+	"Cliente.h"
+	"Producto.h"
+	"ListaProducto.h"
+
+1509463610 c:\users\pc-18\desktop\parcial ii\cliente.h
+
+1509477502 source:c:\users\soldier4\documents\proyectos de computación\parcial ii\main.cpp
+	<iostream>
+	<list>
+	"ListaProducto.h"
+	"Venta.h"
+	"Cliente.h"
+	<stdlib.h>
+
+1509477312 c:\users\soldier4\documents\proyectos de computación\parcial ii\listaproducto.h
+	"NodoProducto.h"
+
+1509464224 c:\users\soldier4\documents\proyectos de computación\parcial ii\nodoproducto.h
+	"Producto.h"
+
+1509463314 c:\users\soldier4\documents\proyectos de computación\parcial ii\producto.h
+
+1509465138 c:\users\soldier4\documents\proyectos de computación\parcial ii\venta.h
+	"Cliente.h"
+	"Producto.h"
+	"ListaProducto.h"
+
+1509463612 c:\users\soldier4\documents\proyectos de computación\parcial ii\cliente.h
+
